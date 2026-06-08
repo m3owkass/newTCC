@@ -18,13 +18,13 @@ class Page1 extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          ProfessorColumn(color: Colors.blue, text: "One"),
+          ProfessorColumn(color: Colors.blue, text: "Professores"),
 
-          SubjectColumn(color: Colors.red, text: "two"),
+          SubjectColumn(color: Colors.red, text: "Matéria"),
 
-          RoomColumn(color: Colors.blue, text: "three"),
+          RoomColumn(color: Colors.blue, text: "Sala"),
 
-          CourseColumn(color: Colors.red, text: "four")
+          CourseColumn(color: Colors.red, text: "Curso", itemCount: 0)
         ],
       )
     );

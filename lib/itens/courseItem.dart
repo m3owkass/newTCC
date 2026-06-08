@@ -5,6 +5,10 @@ class CourseItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container(
+      color: Colors.brown,
+      height: 200,
+      width: 200,
+    );
   }
 }
